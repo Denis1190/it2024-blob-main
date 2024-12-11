@@ -1,0 +1,5 @@
+d = int(input())
+x=int(input())
+rab1 = int(((365-75/(d*d*d))/(3*d*d-d)*5)*x)
+rab2 = int(((412-(125/(d*d*d)))/(2*(d*d)-d)*4)*x)
+print(rab1+rab2)
